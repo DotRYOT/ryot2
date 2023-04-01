@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "workbox generateSW workbox-config.js"
+  },
+  "devDependencies": {
+    "workbox-cli": "^6.5.4"
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RYOT - [HOME]</title>
+    <link
+      rel="shortcut icon"
+      href="./Assets/Images/RYOT_2048x2048.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/index.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js");
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div class="star_container">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </div>
+    <div class="head_container">
+      <div class="img_container">
+        <div class="container">
+          <div class="img_background">
+            <img src="./Assets/Images/RYOT_PFP_2048x2048.png" alt="RYOT" />
+          </div>
+          <div class="text_container">
+            <h1>WELCOME TO</h1>
+            <h1>RYOT.CC</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="vrcworlds">
+      <div class="section_title">
+        <h1>My VRChat Worlds</h1>
+      </div>
+      <div class="image_container">
+        <a
+          href="https://vrchat.com/home/world/wrld_20bec282-e115-4ac2-9ba3-1e37d2c45ecf"
+          target="_blank"
+        >
+          <img
+            src="./Assets/VRCMapImages/VRChat_2022-10-05_11-36-53.456_7680x4320.png"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://vrchat.com/home/world/wrld_1479c899-af36-43ae-8392-1880e63b7e0e"
+          target="_blank"
+        >
+          <img
+            src="./Assets/VRCMapImages/VRChat_2022-10-05_11-38-21.530_7680x4320.png"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://vrchat.com/home/world/wrld_a6b51ee1-cdc9-4beb-b47b-6dfad9d3b9ee"
+          target="_blank"
+        >
+          <img
+            src="./Assets/VRCMapImages/VRChat_2023-03-12_10-43-33.644_7680x4320.png"
+            alt=""
+          />
+        </a>
+      </div>
+    </section>
+    <section class="break"></section>
+  </body>
+</html>
