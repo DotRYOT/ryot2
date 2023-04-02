@@ -23,14 +23,62 @@
         });
       }
     </script>
+    <script src="./node_modules/feather-icons/dist/feather.min.js"></script>
+    <script async src="./index.js"></script>
   </head>
   <body>
+    <nav>
+      <button type="button" name="menuToggle" id="menuToggle">
+        <i id="menu" data-feather="menu"></i>
+      </button>
+      <div class="side_nav">
+        <a class="patreon" href="https://www.patreon.com/_RYOT_" type="_blank"
+          ><img
+            src="./links/Patreon Brand Assets/Patreon Logo/PNG/Digital-Patreon-Logo_Black.png"
+            alt=""
+          />
+          Patreon</a
+        >
+        <a class="kofi" href="https://ko-fi.com/ryot_" type="_blank"
+          ><img
+            src="./links/Kofi Brand Asset/Kofi_logo/PNG/kofi_s_logo_nolabel.png"
+            alt=""
+          />
+          Kofi</a
+        >
+        <a
+          class="steam"
+          href="https://steamcommunity.com/id/xryotx/"
+          type="_blank"
+          ><img
+            src="./links/Steam Branding/Steam_icon_logo_logotype.png"
+            alt=""
+          />
+          Steam</a
+        >
+        <a
+          class="vrchat"
+          href="https://vrchat.com/home/user/usr_a75371d8-1051-4246-ba62-d697c6bdc7e8"
+          type="_blank"
+          ><img src="./links/VRChat Branding/VRChat-Emblem.png" alt="" />
+          VRChat</a
+        >
+        <a class="twitter" href="https://twitter.com/ryot_x" type="_blank"
+          ><img
+            src="./links/Twitter logo/PNG/2021 Twitter logo - white.png"
+            alt=""
+          />
+          Twitter</a
+        >
+        <!-- <a class="" href="#1" type="_blank"><img src="" alt="" /> Lorem</a> -->
+      </div>
+    </nav>
     <div class="star_container">
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
     </div>
-    <div class="head_container">
+    <section class="head_container">
       <div class="img_container">
         <div class="container">
           <div class="img_background">
@@ -42,7 +90,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <section class="vrcworlds">
       <div class="section_title">
         <h1>My VRChat Worlds</h1>
@@ -79,4 +127,7 @@
     </section>
     <section class="break"></section>
   </body>
+  <script>
+    feather.replace();
+  </script>
 </html>
